@@ -2,7 +2,7 @@
 
 Public Class FrmMain
 
-    Dim QuestionList As New List(Of String), CorrectAnswerList As New List(Of Long), UserAnswerList As New List(Of Long)
+    ReadOnly QuestionList As New List(Of String), CorrectAnswerList As New List(Of Long), UserAnswerList As New List(Of Long)
     Dim NumCorrect As Long, isValidated As Boolean, S As String
 
     Private Sub BtnDisplayResults_Click(sender As Object, e As EventArgs) Handles BtnDisplayResults.Click

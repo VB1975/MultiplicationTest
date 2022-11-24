@@ -30,6 +30,7 @@ Partial Class FrmDisplayResults
         Me.RtfResults.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RtfResults.Enabled = False
         Me.RtfResults.Location = New System.Drawing.Point(12, 12)
         Me.RtfResults.Name = "RtfResults"
         Me.RtfResults.ReadOnly = True
